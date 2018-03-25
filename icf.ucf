@@ -1,0 +1,35 @@
+
+NET "clk" LOC = "p76";
+NET "rst" LOC = "p108";
+
+NET "Go" LOC = "p5"; # IL 8
+
+NET "SW[0]" LOC = "p191";	# IL 0
+NET "SW[1]" LOC = "p190";
+NET "SW[2]" LOC = "p196";
+NET "SW[3]" LOC = "p194";
+NET "SW[4]" LOC = "p198";
+NET "SW[5]" LOC = "p197";
+NET "SW[6]" LOC = "p200";
+NET "SW[7]" LOC = "p199";	# IL 7
+
+NET "Answer[0]" LOC = "p139";	// OL 0
+NET "Answer[1]" LOC = "p140";
+NET "Answer[2]" LOC = "p137";
+NET "Answer[3]" LOC = "p138";
+NET "Answer[4]" LOC = "p133";
+NET "Answer[5]" LOC = "p135";
+NET "Answer[6]" LOC = "p131";
+NET "Answer[7]" LOC = "p132";
+NET "Answer[8]" LOC = "p149";
+NET "Answer[9]" LOC = "p150";
+NET "Answer[10]" LOC = "p147";
+NET "Answer[11]" LOC = "p148";
+NET "Answer[12]" LOC = "p144";
+NET "Answer[13]" LOC = "p146";
+NET "Answer[14]" LOC = "p141";
+NET "Answer[15]" LOC = "p143";//OL 15
+
+NET "Over" LOC = "p181"; # OL 16
+
+#output wire[15:0]Answer,
